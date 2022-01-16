@@ -5,9 +5,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 self.importScripts("/WebInterface/worker_api.js");
 let promiseAddButton = objSystem.addButton();
+/*
 promiseAddButton.then(function (response) {
   console.log(response);
 });
 promiseAddButton.catch(function (error) {
   console.error(error);
 });
+*/
