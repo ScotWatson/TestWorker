@@ -4,6 +4,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 self.importScripts("/WebInterface/worker_api.js");
-
-objSystem.sendRequest("Hello World!");
-objSystem.addButton();
+self.postMessage("Hello World!");
+//objSystem.sendRequest("Hello World!");
+//objSystem.addButton();
