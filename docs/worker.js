@@ -8,3 +8,6 @@ let promiseAddButton = objSystem.addButton();
 promiseAddButton.then(function (response) {
   objSystem.sendRequest(response + "  Hello World!");
 });
+promiseAddButton.catch(function (error) {
+  console.error(error);
+});
