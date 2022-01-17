@@ -4,12 +4,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 self.importScripts("/WebInterface/worker_api.js");
+
+let idBtn;
 let promiseAddButton = objSystem.addButton();
-/*
 promiseAddButton.then(function (response) {
-  console.log(response);
+  idBtn = response.id;
 });
 promiseAddButton.catch(function (error) {
-  console.error(error);
+  objSystem.sendResponse({
+    console: error,
+  });
 });
-*/
